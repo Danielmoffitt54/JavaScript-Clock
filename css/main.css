@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.headerH1, .headerA {
+    position: absolute;
+    display: inline-block;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.headerH1 {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    font-size: 30pt;
+}
+
+#anchorLeft {
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+#anchorRight {
+    right: 30%;
+    transform: translateX(50%);
+}
+
+.headerA {
+    z-index: 201;
+    text-decoration: none;
+    color: currentColor;
+    margin-top: 25px;
+    font-size: 20pt;
+}
+
+.headerA:hover {
+    color: #f0f;
+}
+
+.displayContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayBox {
+    font-family: 'Cinzel', serif;
+}
+
+#dateDisplay {
+    font-size: 50pt;
+}
+
+#clockDisplay {
+    font-size: 60pt;
+}
+
+/* 
+#clockDisplay {
+    position: absolute; // We want 
+    top: 50%; // Move element down 50% of the height of the parent.
+    left: 50%; // Move element right 50% of the width of the parent.
+    transform: translateX(-50%); // Move element 50% of its width to the left.
+    transform: translateY(-50%); // Move element 50% of its hieght to the top.
+    font-size: 60px;
+}
+*/
